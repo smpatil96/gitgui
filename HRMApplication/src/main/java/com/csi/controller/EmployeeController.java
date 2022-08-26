@@ -70,6 +70,12 @@ public class EmployeeController {
     }
 
 
+    //my new update
+    @GetMapping("/sayHello")
+    public String sayHello()
+     {
+         return "welcome";
+     }
 
 
 }
